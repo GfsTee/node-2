@@ -15,7 +15,7 @@ fs.mkdir('./test/2/a', { recursive: true }, (err) => {
 //         console.log("Blog1 ergänzt");
 //         fs.readFile('./blog1.txt', 'utf8', (err, data) => {
 //             if (err) throw err
-//             console.log(data);
+//             console.log("Das ist readfile", data);
 //         })
 //     })
 // })
